@@ -70,6 +70,12 @@ lapply(data[,1:4],sd)
 summary(data)
 
 
+
+
+#R does not have a standard in-built function to calculate mode. So we create a user
+#function to calculate mode of a data set in R. This function takes the vector as input
+#and gives the mode value as output.
+
 #5
 #no inbuilt function for mode
 getmode<- function(v){
